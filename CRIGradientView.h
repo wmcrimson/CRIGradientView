@@ -8,9 +8,9 @@
 #import <UIKit/UIView.h>
 
 @interface CRIGradientView : UIView
-@property (nonatomic, retain) NSArray *colors;
-@property (nonatomic, retain) NSArray *locations;
+@property (nonatomic, strong) NSArray *colors;
+@property (nonatomic, strong) NSArray *locations;
 @property (nonatomic, assign) CGPoint startPoint;
 @property (nonatomic, assign) CGPoint endPoint;
-@property (nonatomic, retain) NSString *type;
+@property (nonatomic, strong) NSString *type;
 @end
